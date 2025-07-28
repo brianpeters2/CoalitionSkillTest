@@ -8,3 +8,6 @@ fetch('https://fedskillstest.coalitiontechnologies.workers.dev')
     }
   });
 
+.catch(err => {
+    console.error("Fetch error:", err);
+  });
